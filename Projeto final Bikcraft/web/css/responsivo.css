@@ -18,7 +18,37 @@
     .footer_redes ul li {
         margin-right: 4px;
     }
-    /** Home FIm */
+
+    /** Produtos */
+    .produto_categoria h2 {
+        left: 22%;
+        padding-top: 80px;
+    }
+
+    .produto_icone {
+        height: 222.25px;
+        padding: 38px 10px;
+    }
+
+    .produto_info {
+        background: #000;
+    }
+
+    .produto_info p {
+        padding: 20px 30px;
+        height: 132px;
+        font-size: 14px;
+        list-style: 20px;
+    }
+
+    .produto_info ul li {
+        width: 181px;
+        height: 49px;
+        text-align: center;
+        padding-top: 14px;
+        font-size: 14px;
+        height: 44px;
+    }
 }
 
 /** Estilo para smartphones */
@@ -53,6 +83,10 @@
         border-color: #fff;
     }
 
+    .header_menu ul li a.menu_ativo {
+        border-color: #fff;
+    }
+
     /** Introdução */
     .introducao {
         margin-top: 0px;
@@ -73,5 +107,66 @@
     .qualidade::after {
         display: none;
     }
-    /** Home FIm */
+
+    /** Geral Interno Início */
+    .introducao_interna {
+        margin: 0;
+    }
+
+    /* Sobre */
+    .missao_sobre p {
+        padding-right: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .missao_sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /** Produtos */
+    .produto_categoria h2 {
+        left: 21%;
+        padding-top: 30px;
+    }
+
+    .produto_icone {
+        height: 220px;
+        padding: 40px 30px;
+    }
+
+    .produto_icone img {
+        margin: 0px auto;
+    }
+
+    .produto_info {
+        background: #000;
+    }
+
+    .produto_info p {
+        padding: 20px 30px;
+        height: 162px;
+        font-size: 14px;
+        list-style: 20px;
+    }
+
+    .produto_info ul li {
+        width: 149px;
+        height: 49px;
+        text-align: center;
+        padding-top: 14px;
+        font-size: 14px;
+        height: 44px;
+    }
+
+    /** Orçamento */
+    .form textarea,
+    .form input {
+        width: 100%;
+    }
+
+    .info_montagem_bike ul li {
+        margin-right: 0px;
+    }
 }
