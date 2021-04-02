@@ -187,4 +187,18 @@
     .bolinhas_portfolio li {
         left: 40%;
     }
+
+    /* Contato */
+    .form_contato textarea,
+    .form_contato input {
+        width: 100%;
+    }
+
+    .orcamento_contato {
+        padding-bottom: 0;
+    }
+
+    .orcamento_dados_contato {
+        padding-top: 30px;
+    }
 }
