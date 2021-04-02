@@ -1,0 +1,95 @@
+.introducao_contato {
+    background: url('../img/bg-contato.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/** Orçamento */
+.orcamento_contato {
+    width: 100%;
+    background: #fff;
+    padding: 60px 0;
+}
+
+.orcamento_contato .subtitulo {
+    color: #fec63e;
+}
+
+.orcamento_contato .subtitulo::after {
+    background: #fec63e;
+}
+
+.form_contato label {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.form_contato textarea,
+.form_contato input {
+    width: 85%;
+    height: 40px;
+    border: 4px #fec63e solid;
+    background: none;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.form_contato textarea {
+    padding-bottom: 100px;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.form_contato input:last-child {
+    width: 140px;
+    color: #fec63e;
+    padding-bottom: 27px;
+    padding-top: 7px;
+    margin-top: 20px;
+}
+
+.redes h3,
+.orcamento_dados_contato h3 {
+    color: #fec63e;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.orcamento_dados_contato p {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.orcamento_dados_contato p:nth-child(4) {
+    padding-top: 30px;
+}
+
+.redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.redes ul li a:hover {
+    border-color: #000;
+}
+
+.redes {
+    /* background: darkblue; */
+    width: 100%;
+    padding: 30px 0;
+}
+
+/* endereço */
+.endereco_bikcraft {
+    padding-bottom: 60px;
+}
