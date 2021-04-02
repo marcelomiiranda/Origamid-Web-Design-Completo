@@ -82,7 +82,6 @@
 .orcamento {
     width: 100%;
     background: #000;
-    height: 620px;
     padding: 40px 0;
     margin-top: 60px;
 }
@@ -93,6 +92,12 @@
 
 .orcamento .subtitulo::after {
     background: #fec63e;
+}
+
+.form label {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .form textarea,
@@ -130,17 +135,20 @@
     line-height: 25px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    padding-bottom: 10px;
 }
 
-.info_montagem_bike p,
 .orcamento_dados p {
     color: #fff;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .info_montagem_bike p {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
     padding-bottom: 5px;
 }
 
@@ -148,6 +156,9 @@
     color: #fff;
     padding: 8px 15px;
     margin-right: 60px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .info_montagem_bike ul li:nth-child(odd) {
