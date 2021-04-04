@@ -47,6 +47,12 @@
     margin-top: 20px;
 }
 
+.form_contato button {
+    margin-top: 20px;
+    padding: 7px 40px;
+    background: none;
+}
+
 .redes h3,
 .orcamento_dados_contato h3 {
     color: #fec63e;

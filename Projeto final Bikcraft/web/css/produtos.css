@@ -122,6 +122,12 @@
     margin-top: 20px;
 }
 
+.form button {
+    margin-top: 20px;
+    padding: 7px 40px;
+    background: none;
+}
+
 .info_montagem_bike {
     margin-top: 40px;
 }
