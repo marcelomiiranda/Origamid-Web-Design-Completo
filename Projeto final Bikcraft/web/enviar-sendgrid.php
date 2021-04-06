@@ -2,7 +2,7 @@
 
 require("./sendgrid-php/sendgrid-php.php");
 
-$email_site = "contato@bikcraft.com";
+$email_site = "marcelo.miranda.viana@bikcraftmarcelo.epizy.com";
 $nome_site = "Bikcraft";
 
 $email_user = $_POST["email"];
